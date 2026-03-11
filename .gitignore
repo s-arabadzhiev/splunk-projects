@@ -9,6 +9,10 @@
 **/*.csr
 /etc/auth/
 
+# Allow specific certificates required by Splunk Add-on Builder libraries
+!**/aob_py3/**/*.pem
+!**/aob_py3/**/*.key
+
 # ==========================================
 # 2. Splunk App Specifics
 # ==========================================
